@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "id": "lecture",
+  "name": "通用文档",
+  "template_version": "lecture-v1",
+  "base_template_id": "lecture"
+}

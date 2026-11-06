@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.spec text eol=lf
+*.png binary
+*.ico binary
+*.docx binary
+tests/fixtures/stage2/F02_unicode_crlf.md -text
+resources/preview/gsap/gsap.min.js -text

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "pandoc",
+    "version": "3.6.4",
+    "url": "https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-windows-x86_64.zip",
+    "archive_sha256": "a9e5feb3d56d2fb0e3e765d1c33b8ee6b72e6963d7de31504edeec8cd1be34b1",
+    "exe_sha256": "3d4405429aac6aa7563f452d2e1a670e0274d3620130087ca0402c8fb9595197"
+  },
+  {
+    "name": "mathjax",
+    "version": "3.2.2",
+    "url": "https://registry.npmjs.org/mathjax/-/mathjax-3.2.2.tgz",
+    "archive_sha256": "1b9c0a1c44df864e915690558e72adb9cc5203360daefd385084ced3b6c64c09",
+    "npm_integrity": "sha512-Bt+SSVU8eBG27zChVewOicYs7Xsdt40qm4+UpHyX7k0/O9NliPc+x77k1/FEsPsjKPZGJvtRZM1vO+geW0OhGw=="
+  },
+  {
+    "name": "gsap",
+    "version": "3.13.0",
+    "url": "https://registry.npmjs.org/gsap/-/gsap-3.13.0.tgz",
+    "npm_integrity": "sha512-QL7MJ2WMjm1PHWsoFrAQH/J8wUeqZvMtHO58qdekHpCfhvhSL4gSiz6vJf5EeMP0LOn3ZCprL2ki/gjED8ghVw==",
+    "js_sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
+    "license": "Standard 'no charge' license: https://gsap.com/standard-license."
+  }
+]

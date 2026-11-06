@@ -1,0 +1,7 @@
+{
+  "template_version": "lecture-v1",
+  "engine": "pandoc.exe 3.6.4",
+  "source": "controlled stage-03 base plus immutable lecture style",
+  "style_hash": "716659c07dd6eeda5f5772197dbf65a6326713d8a9295cdd4760da6225dede18",
+  "sha256": "2cc52ea7db73a946f4786a692814362acd8eb41b9ec357b98ec1dc4a38985caa"
+}

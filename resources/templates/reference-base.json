@@ -1,0 +1,6 @@
+{
+  "template_version": "base-pandoc-3.6.4-v2",
+  "engine": "pandoc.exe 3.6.4",
+  "source": "bundled Pandoc default reference + explicit SourceCode paragraph style",
+  "sha256": "af880a305b29224bb17284c10fc820794fc2a79c7606f76464e2e58b3bce20ec"
+}

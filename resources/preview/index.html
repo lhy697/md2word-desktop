@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'">
+<title>离线公式预览验证</title>
+<link rel="stylesheet" href="preview.css">
+<script src="config.js"></script>
+<script defer src="mathjax/tex-chtml.js"></script>
+</head>
+<body>
+<div class="notice">阶段一 · 固定样例技术验证</div>
+<main>
+<h1>让内容，轻松成文。</h1>
+<p class="subtitle">本地 HTML / MathJax · 中文与公式预览</p>
+<p class="hint">样式预览，分页以 Word 为准。</p>
+<h2>01　公式与结构</h2>
+<p>本页只加载应用自带的资源。行内分式与根式：\( f(x)=\frac{1}{2}+\sqrt{x} \)。</p>
+<div class="equation">\[ A=\begin{pmatrix}1 & 2\\3 & 4\end{pmatrix},\qquad \sum_{i=1}^{n}i=\frac{n(n+1)}{2} \]</div>
+<h2>02　课程资料</h2>
+<table><thead><tr><th>检查项</th><th>当前验证目标</th></tr></thead>
+<tbody><tr><td>数学排版</td><td>本地脚本与本地数学字体</td></tr>
+<tr><td>Word 转换</td><td>独立运行 smoke 命令验证真实对象</td></tr></tbody></table>
+<p class="footnote">此窗口用于技术验证。编辑器、样式设置与导出界面在后续阶段实现。</p>
+</main></body></html>

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "F01",
+    "file": "F01_headings.md",
+    "mode": "markdown",
+    "heading_levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "issues": [
+      "HEADING_DEEP"
+    ]
+  },
+  {
+    "id": "F02",
+    "file": "F02_unicode_crlf.md",
+    "mode": "markdown",
+    "heading_levels": [
+      1
+    ],
+    "math_sources": [
+      "z_7+1"
+    ],
+    "issues": []
+  },
+  {
+    "id": "F03",
+    "file": "F03_lists.md",
+    "mode": "markdown",
+    "ordered_starts": [
+      3,
+      1,
+      7
+    ],
+    "issues": []
+  },
+  {
+    "id": "F04",
+    "file": "F04_table.md",
+    "mode": "markdown",
+    "table_cells": [
+      "名称",
+      "数值",
+      "备注",
+      "速度",
+      "12.50",
+      "",
+      "距离",
+      "",
+      "空值 2468",
+      "公式",
+      "x_1",
+      "终点"
+    ],
+    "math_sources": [
+      "x_1"
+    ],
+    "issues": []
+  },
+  {
+    "id": "F08",
+    "file": "F08_code.md",
+    "mode": "markdown",
+    "code_texts": [
+      "def f(x):\n    values = [123, 456]\n    long_value = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\"\n    if x:\n        return \"😀\" + str(values)\n```"
+    ],
+    "issues": []
+  },
+  {
+    "id": "F09",
+    "file": "F09_quote_links.md",
+    "mode": "markdown",
+    "links": [
+      {
+        "text": "官方示例",
+        "target": "https://example.com/path?q=123",
+        "title": "标题 456"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "F10",
+    "file": "F10_fallbacks.md",
+    "mode": "markdown",
+    "issues": [
+      "IMAGE_NOT_SUPPORTED",
+      "RAW_CONTENT_VISIBLE",
+      "LINK_UNSAFE"
+    ],
+    "fallback_contains": [
+      "曲线 123",
+      "https://example.invalid/image.png",
+      "图题 456",
+      "本地 789",
+      "./不存在的图片.png",
+      "2468",
+      "8642",
+      "9876",
+      "javascript:alert%281%29"
+    ]
+  },
+  {
+    "id": "F11",
+    "file": "F11_outer_fence.md",
+    "mode": "markdown",
+    "repair": true,
+    "issues": []
+  },
+  {
+    "id": "F12",
+    "file": "F12_plain.txt",
+    "mode": "plain",
+    "issues": []
+  }
+]

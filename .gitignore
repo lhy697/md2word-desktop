@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+artifacts/
+tools/downloads/
+resources/pandoc/
+resources/preview/mathjax/
+.env
+.env.*
+!.env.example
+*.log
+~$*

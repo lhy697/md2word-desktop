@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "default",
+  "name": "默认样式",
+  "template_version": "lecture-v1",
+  "base_template_id": "lecture",
+  "page": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "top_mm": 25,
+    "bottom_mm": 25,
+    "left_mm": 25,
+    "right_mm": 25,
+    "page_numbers": true
+  },
+  "body": {
+    "font_zh": "宋体",
+    "font_latin": "Times New Roman",
+    "size_pt": 12,
+    "line_spacing": {
+      "mode": "multiple",
+      "multiplier": 1.5
+    },
+    "before_pt": 0,
+    "after_pt": 6,
+    "first_line_chars": 2
+  },
+  "headings": [
+    {
+      "font_zh": "黑体",
+      "font_latin": "Times New Roman",
+      "size_pt": 20,
+      "line_spacing": {
+        "mode": "multiple",
+        "multiplier": 1.5
+      },
+      "before_pt": 16,
+      "after_pt": 6,
+      "level": 1,
+      "keep_next": true,
+      "page_break_before": false
+    },
+    {
+      "font_zh": "黑体",
+      "font_latin": "Times New Roman",
+      "size_pt": 16,
+      "line_spacing": {
+        "mode": "multiple",
+        "multiplier": 1.5
+      },
+      "before_pt": 12,
+      "after_pt": 6,
+      "level": 2,
+      "keep_next": true,
+      "page_break_before": false
+    },
+    {
+      "font_zh": "黑体",
+      "font_latin": "Times New Roman",
+      "size_pt": 13,
+      "line_spacing": {
+        "mode": "multiple",
+        "multiplier": 1.5
+      },
+      "before_pt": 12,
+      "after_pt": 6,
+      "level": 3,
+      "keep_next": true,
+      "page_break_before": false
+    },
+    {
+      "font_zh": "宋体",
+      "font_latin": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing": {
+        "mode": "multiple",
+        "multiplier": 1.5
+      },
+      "before_pt": 12,
+      "after_pt": 6,
+      "level": 4,
+      "keep_next": true,
+      "page_break_before": false
+    },
+    {
+      "font_zh": "宋体",
+      "font_latin": "Times New Roman",
+      "size_pt": 11,
+      "line_spacing": {
+        "mode": "multiple",
+        "multiplier": 1.5
+      },
+      "before_pt": 12,
+      "after_pt": 6,
+      "level": 5,
+      "keep_next": true,
+      "page_break_before": false
+    },
+    {
+      "font_zh": "宋体",
+      "font_latin": "Times New Roman",
+      "size_pt": 10.5,
+      "line_spacing": {
+        "mode": "multiple",
+        "multiplier": 1.5
+      },
+      "before_pt": 12,
+      "after_pt": 6,
+      "level": 6,
+      "keep_next": true,
+      "page_break_before": false
+    }
+  ],
+  "lists": {
+    "indent_mm": 7,
+    "hanging_mm": 3.5
+  },
+  "table": {
+    "font_zh": "宋体",
+    "font_latin": "Times New Roman",
+    "size_pt": 10.5,
+    "line_spacing": {
+      "mode": "multiple",
+      "multiplier": 1.15
+    },
+    "before_pt": 0,
+    "after_pt": 2,
+    "cell_vertical_mm": 1.2,
+    "cell_horizontal_mm": 1.6,
+    "header_fill": "F0F2F4",
+    "border_color": "D9D9D9"
+  },
+  "code": {
+    "font_zh": "宋体",
+    "font_latin": "Consolas",
+    "size_pt": 9.5,
+    "line_spacing": {
+      "mode": "multiple",
+      "multiplier": 1.15
+    },
+    "before_pt": 6,
+    "after_pt": 6,
+    "fill": "F5F5F3"
+  },
+  "quote": {
+    "font_zh": "宋体",
+    "font_latin": "Times New Roman",
+    "size_pt": 11,
+    "line_spacing": {
+      "mode": "multiple",
+      "multiplier": 1.3
+    },
+    "before_pt": 6,
+    "after_pt": 6,
+    "indent_mm": 7
+  },
+  "math": {
+    "font": "Cambria Math",
+    "before_pt": 6,
+    "after_pt": 6
+  }
+}
